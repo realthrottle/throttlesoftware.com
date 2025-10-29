@@ -10,9 +10,9 @@ Throttle aims to provide a lightweight, zero telemetry, zero tracking utilities 
 ## Social
 Check GitHub profile for socials.
 <br>
-Throttle: <a href="https://github.com/realthrottle">https://github.com/realthrottle</a>
+Throttle: <a href="https://github.com/realthrottle">@realthrottle on GitHub</a>
 <br>
-Coconut Tech: <a href="https://github.com/realcoconutech">https://github.com/realcoconutech</a>
+Coconut Tech: <a href="https://github.com/realcoconutech">@realcoconutech on GitHub</a>
 
 ---
 ## Licensing
