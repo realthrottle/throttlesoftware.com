@@ -19,9 +19,11 @@ Coconut Tech: <a href="https://github.com/realcoconutech">@realcoconutech on Git
 
 ### Code License
 This project is licensed under the MIT License.
+<br>
 Please look at the 'LICENSE' file for full details
 
 ### Branding Notice 
 © 2025 Coconut Tech. All rights reserved.
 Coconut Tech™  and Throttle™ are trademarks of Coconut Tech.
+<br>
 The names, logos, site wording and branding may **not** be used without written permisson.
