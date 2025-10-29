@@ -7,6 +7,11 @@ Throttle is a collection of free and open-source tools to make tech more friendl
 ## Goal
 Throttle aims to provide a lightweight, zero telemetry, zero tracking utilities to build tech friendlier.
 
+## Social
+Check GitHub profile for socials.
+Throttle: <a href="https://github.com/realthrottle">https://github.com/realthrottle</a>
+Coconut Tech: <a href="https://github.com/realcoconutech">https://github.com/realcoconutech</a>
+
 ---
 ## Licensing
 
