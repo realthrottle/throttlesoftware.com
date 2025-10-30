@@ -63,7 +63,7 @@
   text-align: center;
 }
 .squircle5 {
-  height: 85mm;
+  height: 100mm;
   width: 90mm;
   border-radius: 20%;
   border: solid;
@@ -74,14 +74,14 @@
   backdrop-filter: blur(10px);
   text-align: center;
 }
-.linktreebuttons {
+.aboutpagebuttons {
   background-color: black;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
 }
-.linktreebuttonrow {
+.aboutpagebuttonrow {
   display: flex;
   justify-content: center;
   gap: 10px;
