@@ -74,6 +74,20 @@
   backdrop-filter: blur(10px);
   text-align: center;
 }
+.linktreebuttons {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.linktreebuttonrow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 .blogtext {
   text-align: center;
   position: relative;
@@ -168,7 +182,6 @@ body {
   height: auto;
   border-radius: 10px;
 }
-
 .button-row {
   display: flex;
   justify-content: center;
@@ -176,7 +189,6 @@ body {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-
 .btn {
   background-color: black;
   color: white;
@@ -185,12 +197,9 @@ body {
   text-decoration: none;
   
 }
-
 .btn:hover {
   background-color: #333;
 }
-
-
 .buttonrowcontact {
   display: flex;
   justify-content: center;
@@ -207,13 +216,10 @@ text-align: center;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
-  
 }
-
 .contactbtn:hover {
   background-color: #333;
 }
-
 @media (max-width: 600px) {
   .button-row {
     flex-direction: column;
