@@ -1,3 +1,4 @@
+<img src="https://raw.githubusercontent.com/realthrottle/throttle.org.uk/refs/heads/main/images/no_background_throttle.png" height="150" width="auto">
 # Throttle
 Throttle is a collection of free and open-source tools to make tech more friendly & secure.
 
