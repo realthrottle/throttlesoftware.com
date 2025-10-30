@@ -14,6 +14,66 @@
   top: 3%;
   left: 41%
 }
+.squircle1 {
+  height: 35mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle2 {
+  height: 35mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle3 {
+  height: 43mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle4 {
+  height: 30mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle5 {
+  height: 85mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
 .blogtext {
   text-align: center;
   position: relative;
