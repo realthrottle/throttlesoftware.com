@@ -1,36 +1,215 @@
 .container {
+    align-items: center;
+    display: flex;
+}
+.hometext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.abouttext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.blogtext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.docstext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.softwaretext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 40%
+}
+.Contacttext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 38%;
+}
+.HallofFametext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 38%
+}
+.logo {
+  height: 130px;
+  width: auto;
+}
+.header {
   display: flex;
 }
- h1, h2, h3, h4, h5, h6 p, a {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
 body {
-   background-image: url("https://cdn.pixabay.com/photo/2022/05/01/18/37/grass-7168204_1280.jpg");
+   background-image: url("https://cdn.pixabay.com/photo/2020/11/07/01/28/abstract-5719221_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
   }
-button {
-  border: dotted;
-  border-radius: 30%;
-  border-color: brown;
+   h1, h2, h3, h4, h5, h6 p, a {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  } 
+  footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0%;
+    left: 43%;
+  }
+  .nodocuments {
+    text-align: center;
+  }
+  .noblogs {
+    text-align: center;
+  }
+  .activatinglasersartwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .laserimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+  }
+  .lasertext {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: absolute;
+    top: 52%;
+    left: 45%; 
+  }
+
+  .center {
+  text-align: center;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.image1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.btn {
   background-color: black;
   color: white;
-  cursor: pointer;
-  height: 30mm;
-  width: 30mm;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  
 }
-footer {
-  position: fixed;
-  text-align: center;
-  bottom: 0%;
-  left: 43%;
+
+.btn:hover {
+  background-color: #333;
 }
-.throttlev2banner {
-  background: white;
-  border: solid;
-  border-color: black;
-  height: 10mm;
+
+
+.buttonrowcontact {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.contactcentertext {
+text-align: center;
+}
+.contactbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  
+}
+
+.contactbtn:hover {
+  background-color: #333;
+}
+
+@media (max-width: 600px) {
+  .button-row {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    height: 80px;
+  }
+}
+    .mobile-warning { display: none; }
+    @media (max-width: 1024px) {
+      .mobile-warning {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        background: #111;
+        color: #fff;
+      }
+    }
+  /* Below is about Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to right, black , lightgrey);
+  height: 50px;
   width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #888;
+}
+
+ul, li, a {
+    border-radius: 10px;
 }
