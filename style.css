@@ -251,7 +251,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to right, black , lightgrey);
+  background-image: linear-gradient(to bottom right, rgb(18, 18, 15), rgb(67, 126, 232));
   height: 50px;
   width: auto;
   display: flex;
@@ -270,10 +270,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 li a:hover {
-  background-color: #888;
+  background-color: rgb(67, 126, 255);
 }
 
 ul, li, a {
