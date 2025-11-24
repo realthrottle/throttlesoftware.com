@@ -80,6 +80,7 @@
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .aboutpagebuttonrow {
   display: flex;
@@ -87,6 +88,9 @@
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 20px;
+}
+.aboutpagebuttons:hover {
+  background-color: #333;
 }
 .blogtext {
   text-align: center;
@@ -195,6 +199,7 @@ body {
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
+  transition: 0.3s;
   
 }
 .btn:hover {
@@ -216,6 +221,7 @@ text-align: center;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .contactbtn:hover {
   background-color: #333;
