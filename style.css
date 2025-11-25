@@ -174,7 +174,6 @@ body {
     top: 52%;
     left: 45%; 
   }
-
   .center {
   text-align: center;
   max-width: 700px;
@@ -264,12 +263,9 @@ ul {
   justify-content: center;
   align-items: center;
 }
-
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -278,11 +274,9 @@ li a {
   text-decoration: none;
   transition: 0.3s;
 }
-
 li a:hover {
   background-color: rgb(67, 126, 255);
 }
-
 ul, li, a {
     border-radius: 10px;
 }
