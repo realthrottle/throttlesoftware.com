@@ -110,6 +110,22 @@
   top: 3%;
   left: 40%
 }
+.sha256checker {
+  background-color: rgb(18, 18, 15);
+  color: #FFF;
+  border: solid;
+  border-color: #FFF;
+  border-radius: 5mm;
+  height: 50mm;
+  width: 75mm;
+  text-align: center;
+}
+.sha256checkerbutton {
+  height: auto;
+  width: 15mm;
+  color: #FFF;
+  cursor: pointer;
+}
 .Contacttext {
   text-align: center;
   position: relative;
@@ -199,7 +215,6 @@ body {
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
-  
 }
 .btn:hover {
   background-color: #333;
@@ -225,11 +240,11 @@ text-align: center;
 .contactbtn:hover {
   background-color: #333;
 }
+/* Below is about mobile responive */
 @media (max-width: 600px) {
   .button-row {
     flex-direction: column;
   }
-
   .btn {
     width: 100%;
   }
