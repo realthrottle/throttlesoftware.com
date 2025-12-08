@@ -1,36 +1,297 @@
 .container {
-  display: flex;
+    align-items: center;
+    display: flex;
 }
- h1, h2, h3, h4, h5, h6 p, a {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
-body {
-   background-image: url("https://cdn.pixabay.com/photo/2022/05/01/18/37/grass-7168204_1280.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-     background-attachment: fixed;
-  }
-button {
-  border: dotted;
-  border-radius: 30%;
-  border-color: brown;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  height: 30mm;
-  width: 30mm;
-}
-footer {
-  position: fixed;
+.hometext {
   text-align: center;
-  bottom: 0%;
-  left: 43%;
+  position: relative;
+  top: 3%;
+  left: 41%
 }
-.throttlev2banner {
-  background: white;
+.abouttext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.squircle1 {
+  height: 35mm;
+  width: 90mm;
+  border-radius: 20%;
   border: solid;
   border-color: black;
-  height: 10mm;
-  width: auto;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
   text-align: center;
+}
+.squircle2 {
+  height: 35mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle3 {
+  height: 43mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle4 {
+  height: 30mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.squircle5 {
+  height: 115mm;
+  width: 90mm;
+  border-radius: 20%;
+  border: solid;
+  border-color: black;
+  background: linear-gradient();
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.aboutpagebuttons {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.aboutpagebuttonrow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.aboutpagebuttons:hover {
+  background-color: #333;
+}
+.blogtext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.docstext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 41%
+}
+.softwaretext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 40%
+}
+.sha256checker {
+  background-color: rgb(18, 18, 15);
+  color: #FFF;
+  border: solid;
+  border-color: #FFF;
+  border-radius: 5mm;
+  height: 72mm;
+  width: 75mm;
+  text-align: center;
+}
+.sha256checkerbutton {
+  height: auto;
+  width: 15mm;
+  color: #FFF;
+  cursor: pointer;
+}
+.Contacttext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 38%;
+}
+.HallofFametext {
+  text-align: center;
+  position: relative;
+  top: 3%;
+  left: 38%
+}
+.logo {
+  height: 130px;
+  width: auto;
+}
+.header {
+  display: flex;
+}
+body {
+   background-image: url("https://cdn.pixabay.com/photo/2020/11/07/01/28/abstract-5719221_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   h1, h2, h3, h4, h5, h6 p, a {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  } 
+  footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0%;
+    left: 43%;
+  }
+  .nodocuments {
+    text-align: center;
+  }
+  .noblogs {
+    text-align: center;
+  }
+  .activatinglasersartwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .laserimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+  }
+  .lasertext {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: absolute;
+    top: 52%;
+    left: 45%; 
+  }
+  .center {
+  text-align: center;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.image1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #333;
+}
+.buttonrowcontact {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.contactcentertext {
+text-align: center;
+}
+.contactbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.contactbtn:hover {
+  background-color: #333;
+}
+/* Below is about mobile responive */
+@media (max-width: 600px) {
+  .button-row {
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    height: 80px;
+  }
+}
+    .mobile-warning { display: none; }
+    @media (max-width: 1024px) {
+      .mobile-warning {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        background: #111;
+        color: #fff;
+      }
+    }
+  /* Below is about Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, rgb(18, 18, 15), rgb(67, 126, 232));
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+li a:hover {
+  background-color: rgb(67, 126, 255);
+}
+ul, li, a {
+    border-radius: 10px;
 }

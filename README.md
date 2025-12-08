@@ -20,7 +20,7 @@ Coconut Tech: <a href="https://github.com/realcoconutech">Coconut Tech Linktree<
 ### Code License
 This project is licensed under the Apache 2.0 License.
 <br>
-Please see the 'LICENSE' file for full details
+See the 'LICENSE' file for full details
 
 ### Branding Notice 
 © 2025 Coconut Tech. All rights reserved.
