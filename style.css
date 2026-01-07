@@ -110,6 +110,9 @@
   top: 3%;
   left: 40%
 }
+.tools {
+  display: flex;
+}
 .sha256checker {
   background-color: rgb(18, 18, 15);
   color: #FFF;
@@ -125,6 +128,23 @@
   width: 15mm;
   color: #FFF;
   cursor: pointer;
+}
+.oledtestweb {
+  background-color: rgb(18, 18, 15);
+  color: #FFF;
+  border: solid;
+  border-radius: 5mm;
+  height: 72mm;
+  width: 82mm;
+  text-align: center;
+  position: relative;
+  left: 1%;
+}
+.oledtestwebbtn {
+  color: #FFF;
+  height: 72mm;
+  width: 75mm;
+  text-align: center;
 }
 .Contacttext {
   text-align: center;
